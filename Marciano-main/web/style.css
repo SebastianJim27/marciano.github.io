@@ -1,0 +1,48 @@
+html{
+
+	background-image: url(https://img.freepik.com/vector-gratis/lindo-extranjero-volando-dibujos-animados-ovni-nave-espacial-concepto-icono-tecnologia-ciencia-aislado-estilo-dibujos-animados-plana_138676-2203.jpg?w=740&t=st=1677681500~exp=1677682100~hmac=d344426e528fa87770edcb0b7ee51385cfa6602f5bd11c5aa5c4fbff09350c82);
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+form {
+	text-align: center;
+	margin-top: 50px;
+}
+label {
+	display: inline-block;
+	margin: 10px;
+}
+input[type="number"] {
+	width: 100px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+}
+select {
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+}
+button {
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #3e8e41;
+}
+

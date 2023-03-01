@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Conversor de grados y radianes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+    <script>alert("Conversor de grados a radianes")</script>
+    <h1>Conversor de grados y radianes</h1>
+    <form method="post" action="conversor.jsp">
+	<label for="valor">Valor:</label>
+	<input type="number" id="valor" name="valor" required step="any"><br>
+	<label for="unidad">Unidad:</label>
+	<select id="unidad" name="unidad">
+            <option value="grados">Grados</option>
+            <option value="radianes">Radianes</option>
+	</select><br>
+	<input type="submit" value="Convertir">
+    </form>
+	
+</body>
+</html>
